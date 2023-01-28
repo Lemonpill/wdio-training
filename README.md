@@ -59,7 +59,6 @@ import fs from "fs";
 ### Key principles to keep in mind
 These are the key principles that will help you create maintainable and reliable automated tests with WebdriverIO:
 
-```
 1. Use a Page Object Model (POM) to organize your tests and make them more maintainable. The POM pattern involves creating classes for each page in your application, with methods for interacting with elements on that page.
 
 2. Use selectors wisely. Selectors are used to locate elements on a page, and it's important to use selectors that are unique and unlikely to change in the future.
@@ -77,7 +76,6 @@ These are the key principles that will help you create maintainable and reliable
 8. Use a test reporting tool like Allure or mochawesome to generate detailed reports of your test runs.
 
 9. Use a test management tool like TestRail or Testlink to manage test cases and track the execution results
-```
 
 ### Basic structure for a WebdriverIO project
 

@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","valid submission of contact-us form (jest)","","1","0","0","0","0"
+"","invalid submission of contact-us form","","0","0","1","0","0"
+"","valid submission of contact-us form","","0","0","1","0","0"

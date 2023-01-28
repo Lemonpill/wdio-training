@@ -55,7 +55,8 @@ import fs from "fs";
 6. Run `npx allure open` to open the generated report
 
 
-## ChatGPT conversation on WDIO
+## ChatGPT conversation on WebdriverIO
+### Key principles to keep in mind
 These are the key principles that will help you create maintainable and reliable automated tests with WebdriverIO:
 
 ```
@@ -102,6 +103,7 @@ project-name/
         |- test-data.js
         |- util.js
         |- ...
+```
 
 - package.json: This file contains the project's dependencies and scripts.
 - wdio.conf.js: This is the configuration file for WebdriverIO. It contains settings for the test runner, reporter, and services.
@@ -109,4 +111,3 @@ project-name/
 - /test/specs/: This directory contains the test files (also known as specs) that define the tests to be run.
 - /test/page-objects/: This directory contains classes that represent pages in the application. Each class should have methods for interacting with elements on that page.
 - /test/helpers/: This directory contains helper functions and classes that are used throughout the test suite, such as utility functions and test data.
-```

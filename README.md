@@ -44,7 +44,7 @@ import fs from "fs";
 ...
   onPrepare: function (config, capabilities) {
     // removes previous results
-    const resultsPath = ""./allure-results""
+    const resultsPath = "./allure-results"
     if (fs.existsSync(resultsPath)) {
         fs.rmSync(resultsPath)
     }
